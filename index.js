@@ -7,14 +7,14 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'PTW2019'
+      name: 'There'
     };
   }
 
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
+        <h1><Hello name={this.state.name} /></h1>
         <p>
           Start editing to see some magic happen :)
         </p>
